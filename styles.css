@@ -1,0 +1,66 @@
+header {
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(61, 58, 58);
+  color: white;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin: 0;
+} 
+
+* {
+  margin: 0;
+  
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(61, 58, 58);
+  height: 100vh;
+  padding-top: 0;
+}
+
+.password-generator {
+  padding: 40px;
+  background-color: rgb(51, 51, 172);
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.password-generator div {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.password {
+  min-width: 280px;
+  background-color: rgb(12, 12, 26);
+  color: rgb(199, 199, 199);
+}
+
+.password p {
+  padding: 6px 10px;
+}
+
+.password i {
+  background-color: rgb(12, 12, 26);
+  padding: 6px 10px;
+}
+
+.password-generator button {
+  width: 100%;
+  border: none;
+  color: white;
+  background-color: rgb(12, 12, 26);
+  padding: 10px;
+}
